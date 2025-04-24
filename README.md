@@ -46,4 +46,4 @@ Podés ver el sitio publicado en GitHub Pages (enlace aquí cuando se haya despl
 
 ## 🧑‍💻 Autor
 
-- **Galeano Santiago** – [GitHub](https://galeanosantiago.com.ar)
+- **Galeano Santiago** – [Portafolio](https://galeanosantiago.com.ar)
