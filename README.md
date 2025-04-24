@@ -33,7 +33,7 @@ Un sitio web estático que presenta distintas recetas en formato de "cards". Est
 
 ## 🌐 Visualización
 
-Podés ver el sitio publicado en GitHub Pages (enlace aquí cuando se haya desplegado).
+Podés ver el sitio publicado en GitHub Pages ([Deploy](https://galeanosantiago.github.io/recetasdecocinas/)).
 
 ---
 
