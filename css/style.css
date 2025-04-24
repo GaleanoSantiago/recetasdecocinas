@@ -3,24 +3,30 @@
     padding: 0;
     box-sizing: border-box;
 }
+a{
+    text-decoration: none;
+}
 nav.navbar{
     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    background:#f8f9fa;
 }
 section{
     padding:40px 0;
-    height:85vh;
+    min-height:85vh;
 }
 .container-cards{
     padding:30px 0;
+    flex-wrap: wrap;
+    gap:15px;
 }
 .card{
     width:400px;
-    transition: all .4s ease-in-out;
+    transition: all .2s ease-in-out;
     box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
 }
 .card:hover{
     cursor:pointer;
-    transition: all .4s ease-in-out;
+    transition:all .2s ease-in-out;
     transform: scale(1.01);
     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 }
@@ -38,7 +44,50 @@ footer{
     padding:15px;
     display:flex;
     align-items: center;
+    background:#f8f9fa;
 }
 footer .container p{
     text-align: center;
+}
+
+/* ============== Dark Mode =============== */
+.dark-mode{
+    background:#1e1e28;
+    color:#fafafa;
+}
+.dark-mode-btn{
+    background:#181818;
+    color:#fff;
+    padding:7px 10px !important;
+    transition: all .4s ease-in-out;
+    border-radius:7px;
+}
+
+.dark-mode-btn:hover, .dark-mode-btn:focus{
+    color:#fafafa;
+    transition: all .4s ease-in-out;
+    
+}
+
+.dark-mode nav.navbar{
+    background: #121826;
+}
+
+.dark-mode nav.navbar .nav-link, .dark-mode .navbar-brand{
+    color:#fafafa;
+
+} 
+.dark-mode .dark-mode-btn{
+    background:#fafafa;
+    color:#222 !important;
+}
+
+.dark-mode .card{
+    background:#2b2d3a;
+    color:#fafafa;
+}
+
+.dark-mode footer {
+    background:#13141a;
+    color:#fafafa;
 }
